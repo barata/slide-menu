@@ -10,15 +10,15 @@ This menu transforms an unordered list (`<ul>`) into a sliding menu. Therefore, 
 
 ```
 <ul id="ID">
-    <li>One<ul>
-        <li>Some</li>
-        <li>Thing</li>
-    </ul></li>
-    <li>Two<ul>
-        <li>Enjoy</li>
-        <li>Your</li>
-        <li>Menu</li>
-    </ul></li>
+	<li>One<ul>
+		<li>Some</li>
+		<li>Thing</li>
+	</ul></li>
+	<li>Two<ul>
+		<li>Enjoy</li>
+		<li>Your</li>
+		<li>Menu</li>
+	</ul></li>
 </ul>
 ```
 
@@ -26,9 +26,9 @@ There can be as many subitems as desired. Due to layout issues, the unordered li
 
 ```
 <div id="CONTAINER">
-    <ul id="ID">
-    ...
-    </ul>
+	<ul id="ID">
+	...
+	</ul>
 </div>
 ```
 
@@ -44,7 +44,7 @@ After that, the sliding menu must be instantiated as follows:
 ```
 <script type="text/javascript">
 $(function() {
-    new menu.SlideMenu(ID, PARAMETERS);
+	new menu.SlideMenu(ID, PARAMETERS);
 });
 </script>
 ```
@@ -60,10 +60,10 @@ The sliding menu may be instantiated as follows:
 
 ```
 new menu.SlideMenu('#ID', {
-    container : '#CONTAINER',
-    clickAndHide : '.hideonclick',
-    floating: false,
-    trigger : '.menu'
+	container : '#CONTAINER',
+	clickAndHide : '.hideonclick',
+	floating: false,
+	trigger : '.menu'
 });
 ```
 
@@ -72,5 +72,5 @@ A complete functional example may be downloaded from this repository. Please kee
 Similar projects
 ----------------
 
-http://github.com/aldomatic/FB-Style-Page-Slide-Menu
-http://github.com/tegansnyder/JQuery-Mobile-Slide-Menu
+- http://github.com/aldomatic/FB-Style-Page-Slide-Menu
+- http://github.com/tegansnyder/JQuery-Mobile-Slide-Menu
