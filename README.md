@@ -44,12 +44,12 @@ After that, the sliding menu must be instantiated as follows:
 ```
 <script type="text/javascript">
 $(function() {
-	new menu.SlideMenu(ID, PARAMETERS);
+	new menu.SlideMenu(ID, PARAMS);
 });
 </script>
 ```
 
-The `PARAMETERS` is a dictionary containing the following items:
+The `PARAMS` parameter is a dictionary containing the following items:
 
 - `container`: The ID of the surrounding the unordered list.
 - `clickAndHide`: Links with this class force menu to get hidden after a click.
