@@ -3,6 +3,8 @@ Slide Mobile Menu
 
 The aim of this project was to study and practice some features provided by the jQuery technology. Since it is my first piece of software in jQuery, you shouldn't expect too much from my code. Don't ask me why, but I decided to implement a navigation menu for mobile devices. It is a sliding menu very similar to the one used in http://m.g1.globo.com ;-) Feel free to use it and provide feedback.
 
+To see a preview, please refer to [this link](http://htmlpreview.github.com/?http://github.com/barata/slide-menu/blob/master/index.html).
+
 Usage
 -----
 
