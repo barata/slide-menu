@@ -1,0 +1,65 @@
+body,#box,#box ul {
+	margin:0;
+	padding:0;
+}
+#box {
+	display:none;
+	height:250px;
+	margin-left:0px;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+#box ul {
+	cursor:pointer;
+	list-style-type:none;
+	position:absolute;
+	width:100%;
+}
+#menu a {
+	color:#4B4B4B;
+	display:block;
+	height:100%;
+	//outline:#FF0000 dotted thin;
+	text-decoration:none;
+}
+#menu li {
+	height:40px;
+	border-bottom:#888888 solid thin;
+	padding:5px 10px;
+	background-image: linear-gradient(bottom, rgb(248,248,248) 50%, rgb(255,255,255) 50%);
+	background-image: -o-linear-gradient(bottom, rgb(248,248,248) 50%, rgb(255,255,255) 50%);
+	background-image: -moz-linear-gradient(bottom, rgb(248,248,248) 50%, rgb(255,255,255) 50%);
+	background-image: -webkit-linear-gradient(bottom, rgb(248,248,248) 50%, rgb(255,255,255) 50%);
+	background-image: -ms-linear-gradient(bottom, rgb(248,248,248) 50%, rgb(255,255,255) 50%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, rgb(248,248,248)), color-stop(0.5, rgb(255,255,255)));
+}
+#menu ul {
+	left:100%;
+	top:0;
+}
+#header {
+	background-color:#EEE;
+	display:block;
+	height:50px;
+	text-align:right;
+}
+#content {
+	display:block;
+	padding:5px 10px 15px;
+	text-align:justify;
+}
+.back {
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+}
+.larrow {
+	float:left;
+}
+.rarrow {
+	float:right;
+}
+.menu img {
+	padding:10px;
+}
