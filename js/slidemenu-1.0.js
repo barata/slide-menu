@@ -1,6 +1,6 @@
 /*
 	This code was written by Flávio Roberto Santos (flavio.barata@gmail.com)
-	Use and modify according to your needs, but please keep this credits on it.
+	Use and modify according to your needs, but please give the rights to the creator.
 */
 
 var menu = menu || {};
