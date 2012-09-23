@@ -69,7 +69,7 @@ new menu.SlideMenu('#ID', {
 });
 ```
 
-A complete functional example may be downloaded from this repository. Please keep the owner credits in the code.
+A complete functional example may be downloaded from this repository. Please give the creator the right to be credited for the work.
 
 Similar projects
 ----------------
