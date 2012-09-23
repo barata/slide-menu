@@ -58,7 +58,7 @@ The `PARAMS` parameter is a dictionary containing the following items:
 - `floating`: If `true`, the menu appears on top of page content, instead of sliding it down.
 - `trigger`: Determines which page links show the menu. Links with this class trigger the menu.
 
-The sliding menu may be instantiated as follows:
+The final code to instantiate the sliding menu is similar to this one:
 
 ```
 new menu.SlideMenu('#ID', {
